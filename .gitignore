@@ -1,0 +1,68 @@
+# ═══════════════════════════════════════════════════════
+#  SECRETS — NEVER COMMIT
+# ═══════════════════════════════════════════════════════
+lib/core/config/env.dart
+.env
+*.env
+android/key.properties
+
+# ═══════════════════════════════════════════════════════
+#  Flutter / Dart
+# ═══════════════════════════════════════════════════════
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# ═══════════════════════════════════════════════════════
+#  IDE
+# ═══════════════════════════════════════════════════════
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# ═══════════════════════════════════════════════════════
+#  Android
+# ═══════════════════════════════════════════════════════
+android/.gradle/
+android/local.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+*.jks
+*.keystore
+
+# ═══════════════════════════════════════════════════════
+#  iOS
+# ═══════════════════════════════════════════════════════
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+
+# ═══════════════════════════════════════════════════════
+#  OS
+# ═══════════════════════════════════════════════════════
+.DS_Store
+Thumbs.db
+
+# ═══════════════════════════════════════════════════════
+#  Coverage & Logs
+# ═══════════════════════════════════════════════════════
+coverage/
+*.log
+
+# ═══════════════════════════════════════════════════════
+#  ⚠️  NOTE ON firebase_options.dart
+# ═══════════════════════════════════════════════════════
+# firebase_options.dart contains Firebase *app config* (API keys),
+# NOT secrets in Firebase's terminology. These keys are already
+# embedded in any built APK and are designed to be public — they
+# only grant access as allowed by your Firestore security rules.
+# It is safe (and standard) to commit this file for student projects.
+# Uncomment the line below ONLY if you want to force every contributor
+# to run `flutterfire configure` themselves:
+# lib/firebase_options.dart

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "888452911446",
+    "project_id": "createbook-app-2026",
+    "storage_bucket": "createbook-app-2026.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888452911446:android:5b40d19207483616b2c6f7",
+        "android_client_info": {
+          "package_name": "com.example.createbook"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgAdZ0gmpQ8ExjP595VhDBBBbkUsdjlhw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
